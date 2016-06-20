@@ -1,0 +1,103 @@
+html, body, header, main, h1, h2, p, ul, li {
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+@font-face {
+	font-family: "BlackChancery";
+	src: url("BLKCHCRY.TTF");
+	font-style: normal;
+	font-weight: normal;
+}
+
+body {
+	background: #FFE5CC url("sprinkles.png");
+	width: 900px;
+  margin: 40px auto;
+	border:7px double #FF6666;
+	padding: 30px;
+}
+
+header {
+	margin: 25px 0 15px;
+	color: #006600;
+	font: 30px "BlackChancery", fantasy, Georgia, serif;
+	text-align: center;
+	transition: color 1.5s ease-in-out;
+}
+
+header:hover {
+	color: #6B8E23;
+}
+
+main {
+	padding: 0 35px 15px;
+	color: #8B4513;
+	font-family: Georgia, serif;
+}
+
+h2 {
+	padding: 30px 0 10px;
+	color: #006600;
+	font: bold 25px "BlackChancery", fantasy, Georgia, serif;
+	transition: color 1.2s ease-in-out;
+}
+
+h2:hover {
+	color: #6B8E23;
+}
+
+p {
+	padding-bottom: 10px;
+}
+
+button {
+	background: #F9BDEF url(pink_rice.png);
+	border: 7px double #FF6666;
+	margin: 40px 320px;
+	color: #006600;
+	text-align: center;
+	padding: 20px;
+	font: 25px "BlackChancery", fantasy, Georgia, serif;
+}
+
+.contact {
+	margin: 25px 0;
+	color: #FF6666;
+	font: 19px Georgia, serif;
+	text-align: center;
+	transition: color 1.2s ease-in-out;
+}
+
+.contact:hover {
+	color: #DC143C;
+}
+
+.contact li {
+	padding: 23px;
+	display: inline;
+}
+
+.skillsList {
+	list-style-type: none;
+	padding-bottom: 5px;
+}
+
+.educationList {
+	list-style-type: none;
+	padding: 5px 0 15px;
+}
+
+.workList{
+	list-style-type: none;
+	padding-bottom: 20px;
+}
+
+.references {
+	padding-bottom: 20px;
+}
+
+#resume {
+	display: none;
+}
